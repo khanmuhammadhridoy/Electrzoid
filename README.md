@@ -9,7 +9,7 @@ Live: [Electrzoid](https://electrzoid.web.app/)
 ## Website Information
 
 This is a simple website created using React App.
-This website is similar to a bookshop.
+
 
 Authentication is done by [Firebase](https://firebase.google.com/)
 
