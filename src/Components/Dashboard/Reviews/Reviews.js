@@ -14,7 +14,7 @@ const Reviews = () => {
       message: data.message,
       user: { ...loggedInUser },
     };
-    const url = `http://localhost:5000/addReviews`;
+    const url = `https://electrzoid.herokuapp.com/addReviews`;
     fetch(url, {
       method: "POST",
       headers: {

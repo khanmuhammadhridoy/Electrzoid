@@ -9,7 +9,7 @@ const ContactCompo = () => {
       email: data.email,
       message: data.message,
     };
-    const url = `http://localhost:5000/messages`;
+    const url = `https://electrzoid.herokuapp.com/messages`;
     fetch(url, {
       method: "POST",
       headers: {

@@ -23,7 +23,7 @@ const AddServices = () => {
     formData.append("price", info.price);
     formData.append("file", file);
 
-    fetch("http://localhost:5000/addService", {
+    fetch("https://electrzoid.herokuapp.com/addService", {
       method: "POST",
       body: formData,
     })

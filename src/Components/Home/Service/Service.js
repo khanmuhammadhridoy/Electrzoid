@@ -7,7 +7,7 @@ const Service = ({ service }) => {
   const [loggedInUser] = useContext(UserContext);
   const handleService = () => {
     const newOrders = { ...loggedInUser, ...service };
-    fetch("http://localhost:5000/addOrders", {
+    fetch("https://electrzoid.herokuapp.com/addOrders", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(newOrders),

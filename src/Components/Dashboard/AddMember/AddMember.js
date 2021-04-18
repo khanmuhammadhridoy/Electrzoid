@@ -24,7 +24,7 @@ const AddMember = () => {
     formData.append("role", info.role);
     formData.append("file", file);
 
-    fetch("http://localhost:5000/addMember", {
+    fetch("https://electrzoid.herokuapp.com/addMember", {
       method: "POST",
       body: formData,
     })

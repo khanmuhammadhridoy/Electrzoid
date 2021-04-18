@@ -3,7 +3,7 @@ import Worker from "../Worker/Worker";
 const Workers = () => {
   const [workers, setWorkers] = useState([]);
   useEffect(() => {
-    fetch("http://localhost:5000/members")
+    fetch("https://electrzoid.herokuapp.com/members")
       .then((res) => res.json())
       .then((data) => setWorkers(data));
   }, []);

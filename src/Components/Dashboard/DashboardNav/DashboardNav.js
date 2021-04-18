@@ -7,7 +7,7 @@ const DashboardNav = () => {
   const [loggedInUser] = useContext(UserContext);
   const [isMembers, setIsMembers] = useState(false);
   useEffect(() => {
-    fetch("http://localhost:5000/ismember", {
+    fetch("https://electrzoid.herokuapp.com/ismember", {
       method: "POST",
       headers: { "content-type": "application/json" },
       body: JSON.stringify({ email: loggedInUser.email }),

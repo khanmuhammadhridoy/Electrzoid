@@ -5,12 +5,12 @@ import DashboardNav from "../DashboardNav/DashboardNav";
 const ManageWeb = () => {
   const [service, setService] = useState([]);
   useEffect(() => {
-    fetch("http://localhost:5000/services")
+    fetch("https://electrzoid.herokuapp.com/services")
       .then((res) => res.json())
       .then((data) => setService(data));
   }, []);
   const handleServiceDelete = (id) => {
-    fetch(`http://localhost:5000/serviceDelete/${id}`, {
+    fetch(`https://electrzoid.herokuapp.com/serviceDelete/${id}`, {
       method: "DELETE",
     })
       .then((res) => res.json())
@@ -18,12 +18,12 @@ const ManageWeb = () => {
   };
   const [members, setMembers] = useState([]);
   useEffect(() => {
-    fetch("http://localhost:5000/members")
+    fetch("https://electrzoid.herokuapp.com/members")
       .then((res) => res.json())
       .then((data) => setMembers(data));
   }, []);
   const handleMemberDelete = (id) => {
-    fetch(`http://localhost:5000/memberDelete/${id}`, {
+    fetch(`https://electrzoid.herokuapp.com/memberDelete/${id}`, {
       method: "DELETE",
     })
       .then((res) => res.json())
