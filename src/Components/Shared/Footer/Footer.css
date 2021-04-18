@@ -1,0 +1,17 @@
+footer a {
+  padding: 10px;
+  color: #000;
+  margin: 15px;
+  font-weight: 500;
+  border-radius: 5px;
+  font-size: 25px;
+}
+
+footer a:hover {
+  text-decoration: none;
+  color: #f28901;
+}
+
+footer a:active {
+  color: #f28901;
+}

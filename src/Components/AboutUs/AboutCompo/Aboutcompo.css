@@ -1,0 +1,47 @@
+.aboutText {
+    padding: 50px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    margin-left: -150px;
+    background: #fff;
+  }
+  .aboutHeading {
+    font-size: 30px;
+    line-height: 46px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7px;
+    margin-bottom: 0;
+  }
+  
+  .about {
+    margin: 100px 0;
+  }
+  
+  .highlight {
+    color: #f47629;
+  }
+  .bigImage {
+    width: 100%;
+    height: auto;
+  }
+  .smallImage {
+    position: absolute;
+    left: -98px;
+    bottom: -63px;
+  }
+  .about li {
+    list-style: none;
+    margin-left: -45px;
+    font-weight: 400;
+    font-size: 15px;
+  }
+  .about li .icon {
+    color: #f47629;
+    margin-right: 5px;
+  }
+  .about p {
+    font-size: 15px;
+    font-weight: 400;
+  }
+  
