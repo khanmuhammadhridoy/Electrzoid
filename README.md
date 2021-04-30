@@ -1,8 +1,8 @@
 ## Website Name
 
-Name: Electrzoid
+Name: [Electrzoid](https://electrzoid.web.app/)
 
-##Project Info
+## Project Info
 
 This project was about a full-stack web developer. The full project was done by me including front-end design and back-end database management.
 
